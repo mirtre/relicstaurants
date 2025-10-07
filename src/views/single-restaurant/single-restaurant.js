@@ -13,7 +13,7 @@ import {
 } from './single-restaurant.styled';
 
 const getRestaurant = async (id) => {
-  const { data } = await axios.get(`http://ip-172-31-34-181.us-east-2.compute.internal:3003/api/menu/${id}`);
+  const { data } = await axios.get(`http://ec2-18-188-151-21.us-east-2.compute.amazonaws.com:3003/api/menu/${id}`);
 
   return data;
 };
