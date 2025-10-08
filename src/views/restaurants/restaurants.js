@@ -24,7 +24,7 @@ const Restaurants = () => {
   const [form] = Form.useForm();
 
   const getRestaurants = async () => {
-    const { data } = await axios.get('http://ip-172-31-34-181.us-east-2.compute.internal:3001/api/restaurants');
+    const { data } = await axios.get('lvh.me:3001/api/restaurants');
     return data;
   };
   const { data } = useQuery('restaurants', getRestaurants);
