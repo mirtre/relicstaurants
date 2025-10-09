@@ -14,7 +14,7 @@ import {
 
 const getRestaurant = async (id) => {
   const { data } = await axios.get(
-    `http://ec2-18-188-151-21.us-east-2.compute.amazonaws.com:3003/api/menu/${id}`);
+    `http://ec2-52-14-93-248.us-east-2.compute.amazonaws.com:3003/api/menu/${id}`);
 
   return data;
 };
