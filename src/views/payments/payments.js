@@ -17,7 +17,7 @@ const Payments = () => {
 
   const handleOrderSending = async (payload) => {
     await axios.post(
-      'http://ec2-3-22-225-135.us-east-2.compute.amazonaws.com:3002/api/checkout', 
+      'http://ec2-3-22-225-135.us-east-2.compute.amazonaws.com:3002/api/checkout',
       payload);
   };
 
