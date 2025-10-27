@@ -25,7 +25,7 @@ const Restaurants = () => {
 
   const getRestaurants = async () => {
     const { data } = await axios.get(
-      'http://ec2-3-22-225-135.us-east-2.compute.amazonaws.com:3001/api/restaurants'
+      'http://ec2-3-14-12-177.us-east-2.compute.amazonaws.com:3001/api/restaurants'
     );
     return data;
   };
